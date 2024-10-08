@@ -7,39 +7,70 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <!-- Header -->
     <header>
-        <h1>Building & Blueprint Analyzer</h1>
+        <div class="logo">
+            <h1>Building & Blueprint Analyzer</h1>
+        </div>
         <nav>
             <a href="index.html">Home</a>
             <a href="about.html">About</a>
             <a href="contact.html">Contact Us</a>
         </nav>
-        
     </header>
 
-    <!-- Main Content -->
     <main>
-        <section class="tool-selection">
+        <!-- Introduction Section -->
+        <section class="intro-section">
+            <h2>Welcome to the Building & Blueprint Analyzer</h2>
+            <p>
+                This platform is designed to help architects, civil engineers, and urban developers analyze building structures and blueprints using advanced machine learning models. Whether you need to count floors or categorize rooms in blueprints, our tools make the process quick and efficient.
+            </p>
+            <a href="#tools" class="btn">Explore Our Tools</a>
+        </section>
+
+        <!-- User Guide Section -->
+        <section class="user-guide">
+            <h2>How to Use Our Tools</h2>
+            <ul>
+                <li>Step 1: Select a tool from the options below (Floor Counter or Room Categorization Tool).</li>
+                <li>Step 2: Upload your building image or blueprint in .jpg, .png, .pdf, or .dwg format.</li>
+                <li>Step 3: Wait for the system to process your file.</li>
+                <li>Step 4: Download the results in PDF or JSON format for easy access.</li>
+            </ul>
+        </section>
+
+        <!-- Tool Selection -->
+        <section id="tools" class="tool-options">
             <h2>Select a Tool</h2>
-            <div class="tool-options">
-                <div class="tool">
-                    <h3>Floor Counter</h3>
-                    <p>Upload a building image to count floors.</p>
-                    <a href="floor-counter.html" class="btn">Go to Floor Counter</a>
-                </div>
-                <div class="tool">
-                    <h3>Room Categorization</h3>
-                    <p>Upload a blueprint image to categorize rooms (kitchen, bedroom, etc.).</p>
-                    <a href="room-categorization.html" class="btn">Go to Room Categorization</a>
-                </div>
+            <div class="tool">
+                <h3>Floor Counter</h3>
+                <p>Upload a building image to detect the number of floors.</p>
+                <a href="floor-counter.html" class="btn">Use Floor Counter</a>
             </div>
+            <div class="tool">
+                <h3>Room Categorization Tool</h3>
+                <p>Upload a blueprint to categorize rooms like kitchen, bedroom, etc.</p>
+                <a href="room-categorization.html" class="btn">Use Room Categorization Tool</a>
+            </div>
+        </section>
+
+        <!-- Testimonials / Use Cases (Optional) -->
+        <section class="testimonials">
+            <h2>Real-World Applications</h2>
+            <p>“The Floor Counter tool saved us hours of manual work by automatically counting floors in complex building images!” - Architect John Doe</p>
+            <p>“As an urban planner, the Room Categorization Tool helped us quickly analyze blueprints for residential projects.” - Civil Engineer Jane Smith</p>
+        </section>
+
+        <!-- Call to Action -->
+        <section class="cta">
+            <h2>Ready to get started?</h2>
+            <p>Upload your building image or blueprint now to receive instant analysis results.</p>
+            <a href="#tools" class="btn">Try Now</a>
         </section>
     </main>
 
-    <!-- Footer -->
     <footer>
-        <p>&copy; 2024 Building & Blueprint Analyzer</p>
+        <p>&copy; 2024 Building & Blueprint Analyzer. All Rights Reserved.</p>
     </footer>
 </body>
 </html>

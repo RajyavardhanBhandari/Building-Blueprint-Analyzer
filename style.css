@@ -60,6 +60,94 @@ h1, h2 {
     background-color: #45a049;
 }
 
+/* Introduction Section */
+.intro-section {
+    background-color: #ffffff;
+    padding: 40px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.intro-section p {
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+/* Feature Overview */
+.feature-overview {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+    flex-wrap: wrap;
+}
+
+.feature {
+    background-color: white;
+    padding: 20px;
+    border: 1px solid #ddd;
+    width: 45%;
+    margin-bottom: 20px;
+}
+
+/* User Guide Section */
+.user-guide {
+    background-color: #ffffff;
+    padding: 40px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.user-guide ul {
+    list-style-type: disc;
+    text-align: left;
+    margin: 20px auto;
+    max-width: 600px;
+}
+
+.user-guide li {
+    margin: 10px 0;
+    font-size: 16px;
+}
+
+/* Tool Options Section */
+.tool-options {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 40px;
+}
+
+.tool {
+    background-color: white;
+    padding: 20px;
+    border: 1px solid #ddd;
+    width: 45%;
+    border-radius: 10px;
+}
+
+/* Testimonials Section */
+.testimonials {
+    background-color: #e8e8e8;
+    padding: 40px;
+    border-radius: 10px;
+    margin-top: 40px;
+}
+
+.testimonials p {
+    font-style: italic;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+/* Call to Action Section */
+.cta {
+    background-color: #2E3B55;
+    color: white;
+    padding: 40px;
+    margin-top: 40px;
+    border-radius: 10px;
+}
+
+
 .developer-team {
     display: flex;
     justify-content: space-around;
@@ -102,6 +190,98 @@ h1, h2 {
 
 .linkedin-btn:hover {
     background-color: #005983;
+}
+
+/* Contact Us Section Styles */
+.contact-section {
+    background-color: #ffffff;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.contact-section h2 {
+    color: #2E3B55;
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.contact-section p {
+    font-size: 1.1rem;
+    color: #555;
+    margin-bottom: 30px;
+}
+
+.contact-form {
+    width: 80%;
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #f9f9f9;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.contact-form form {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-form label {
+    font-size: 1.2rem;
+    margin-bottom: 8px;
+    color: #333;
+    text-align: left;
+}
+
+.contact-form input[type="text"],
+.contact-form input[type="email"],
+.contact-form textarea {
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 1rem;
+    width: 100%;
+    box-sizing: border-box;
+    outline: none;
+}
+
+.contact-form input[type="text"]:focus,
+.contact-form input[type="email"]:focus,
+.contact-form textarea:focus {
+    border-color: #4CAF50;
+    box-shadow: 0 0 5px rgba(76, 175, 80, 0.3);
+}
+
+.contact-form textarea {
+    resize: vertical;
+}
+
+.contact-form button {
+    padding: 12px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+
+.contact-form button:hover {
+    background-color: #45a049;
+}
+
+/* Make the form responsive */
+@media (max-width: 600px) {
+    .contact-form {
+        width: 100%;
+        padding: 20px;
+    }
+}
+
+nav a.active {
+    font-weight: bold;
+    text-decoration: underline;
 }
 
 footer {
