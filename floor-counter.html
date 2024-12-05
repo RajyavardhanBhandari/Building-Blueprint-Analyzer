@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Floor Counter - Building & Blueprint Analyzer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Floor Counter Tool</h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="contact.html">Contact Us</a>
+        </nav>
+        
+    </header>
+
+    <main>
+        <section>
+            <h2>Upload a Building Image</h2>
+            <form id="upload-form">
+                <input type="file" id="upload-file" accept="image/*" required>
+                <button type="submit" class="btn">Upload & Analyze</button>
+            </form>
+            <div id="result">
+                <!-- Result will appear here -->
+            </div>
+            <button id="download-pdf" class="btn" style="display:none;">Download PDF</button>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Building & Blueprint Analyzer</p>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>
